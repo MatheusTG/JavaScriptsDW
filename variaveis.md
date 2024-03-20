@@ -7,6 +7,7 @@ var nome01 = 'Matheus'
 ```
 
 ### Variável de escopo de bloco
+
 ```JavaScript
 if (true) {
   let idade = 18
@@ -17,9 +18,82 @@ console.log(idade)
 ```
 
 ### Constante
+
 ```JavaScript
 const numero = 4
 
 // Não funciona pois não pode alterar o valor de uma constante
 numero = '4'
+```
+
+# Tipos primitivos
+
+## boolean
+
+Valores booleanos são compostos apenas por 'true' e 'false', e são usados na maior parte das vezes condições
+
+```JavaScript
+const condicao = true
+if (condicao) {
+  console.log('Deu certo')
+}
+```
+
+## number
+
+Os valores number em JS são formados por números e podem sofrer operações matemáticas
+
+```JavaScript
+const num01 = 2
+const num02 = 2
+console.log(num01 + num02) // 4
+console.log(num01 / num02) // 1
+```
+
+## string
+
+As strings no JS assim como na maioria das linguagens de programação são formados por caracteres vindos da tabela ASCII
+
+```JavaScript
+const nome = 'Matheus'
+const sobrenome = 'Teodoro
+// Concatenação de strings
+const nomeCompleto = nome + ' ' + sobrenome
+
+console.log(nomeCompleto)
+```
+
+## undefined
+
+Os valores undefined no JS, como o próprio nome já diz, são formados por valores indefinidos, ou seja valores que ainda nn possuem valores
+
+```JavaScript
+const pessoa
+
+// Retorna undefined pois a variável pessoa ainda não possuí um valor definido
+console.log(pessoa)
+```
+
+## undefined
+
+Os valores undefined no JS, como o próprio nome já diz, são formados por valores indefinidos, ou seja valores que ainda nn possuem valores
+
+```JavaScript
+const pessoa
+
+// Retorna undefined pois a variável pessoa ainda não possuí um valor definido
+console.log(pessoa)
+```
+
+## null
+
+Valores 'null' em JS são indicados pela ausência de valor intencionalmente atribuída
+
+```JavaScript
+const resultado = null
+if (true) {
+  resultado = 2
+} else {
+  resultado = 4
+}
 ```
