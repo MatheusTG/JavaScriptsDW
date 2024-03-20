@@ -97,3 +97,24 @@ if (true) {
   resultado = 4
 }
 ```
+
+## object
+
+Os objetos em JavaScript são estruturas de dados complexas que podem conter diferentes tipos de valores, incluindo números, strings, arrays, funções e outros objetos.
+
+```JavaScript
+const pessoa = {
+  nome: 'João',
+  idade: 30,
+  cidade: 'São Paulo'
+}
+
+// Acessando propriedades do objeto
+console.log(pessoa.nome) // João
+console.log(pessoa.idade) // 30
+
+// Adicionando propriedades dinamicamente
+pessoa.profissao = 'Engenheiro'
+
+console.log(pessoa.profissao) // Engenheiro
+´´´
