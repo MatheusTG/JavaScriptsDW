@@ -139,3 +139,62 @@ console.log(numeros) // [1, 2, 3, 4, 5, 6]
 for (let i = 0; i < numeros.length; i++) {
   console.log(numeros[i])
 }
+```
+
+## Operadores Básicos
+
+### Aritméticos
+
+Os operadores aritméticos são usados para realizar operações matemáticas básicas.
+
+```JavaScript
+let x = 10
+let y = 5
+
+console.log(x + y) // Soma: 15
+console.log(x - y) // Subtração: 5
+console.log(x * y) // Multiplicação: 50
+console.log(x / y) // Divisão: 2
+console.log(x % y) // Resto da divisão: 0
+console.log(++x) // Incremento: 11
+console.log(--y) // Decremento: 4
+```
+
+## Comparação
+
+Os operadores de comparação são usados para comparar dois valores e retornar um valor booleano.
+
+```JavaScript
+let a = 5
+let b = 10
+
+console.log(a == b) // Igual a: false
+console.log(a != b) // Diferente de: true
+console.log(a > b) // Maior que: false
+console.log(a < b) // Menor que: true
+console.log(a >= b) // Maior ou igual a: false
+console.log(a <= b) // Menor ou igual a: true
+```
+
+## Lógicos
+
+Os operadores lógicos são usados para combinar duas ou mais expressões e retornar um resultado booleano.
+
+```JavaScript
+const condicao1 = true
+const condicao2 = false
+
+console.log(condicao1 && condicao2) // E lógico: false
+console.log(condicao1 || condicao2) // OU lógico: true
+console.log(!condicao1) // NÃO lógico: false
+```
+
+## typeof
+
+O typeof em JS é usado para se obter o tipo de algum objeto, ele retorna uma string com o nome do tipo escrito por extenso
+
+```JavaScript
+console.log(typeof 'Matheus') // string
+console.log(typeof 20) // number
+console.log(typeof HTMLElement) // object
+```
