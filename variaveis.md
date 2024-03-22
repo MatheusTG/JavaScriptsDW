@@ -117,4 +117,25 @@ console.log(pessoa.idade) // 30
 pessoa.profissao = 'Engenheiro'
 
 console.log(pessoa.profissao) // Engenheiro
-´´´
+```
+
+## Array
+
+Arrays em JavaScript são objetos especiais usados para armazenar coleções ordenadas de elementos. Os elementos de um array podem ser de qualquer tipo de dados, inclusive outros arrays. Os índices dos arrays começam em 0.
+
+```JavaScript
+const numeros = [1, 2, 3, 4, 5]
+const nomes = ['João', 'Maria', 'José']
+
+// Acessando elementos do array
+console.log(numeros[0]) // 1
+console.log(nomes[1]) // Maria
+
+// Adicionando elementos ao array
+numeros.push(6)
+console.log(numeros) // [1, 2, 3, 4, 5, 6]
+
+// Iterando sobre um array
+for (let i = 0; i < numeros.length; i++) {
+  console.log(numeros[i])
+}
